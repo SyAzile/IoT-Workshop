@@ -1,24 +1,19 @@
 ## Internet-of-Things-Workshop
 Exercises from the Internet-of-Things (IoT) Workshop during Summer 2025.
 
-<details open>
-<summary><b>📋 Overview</b></summary>
 Hands-on IoT projects with:
 
-- **Arduino UNO** - Sensor Interfacing.
+- **Arduino UNO** - Sensor Interfacing and the Physics behind Sensors.
 - **ESP32** - Wireless Communication via WLAN and Bluetooth.
 - **MQTT** - Simulating Message Queuing Telemetry Transport (MQTT) Protocol using Mosquitto Broker and Wokwi Simulator.
 
-</details>
+### 📦 Setting up Environment
 
-<details open>
-<summary><b>📦 Setting up Environment</b></summary>
+#### 🛠️ Arduino IDE
 
-<b>🛠️ Arduino IDE</b>
+- Download the latest [Arduino IDE](https://www.arduino.cc/en/software/) Installer for Windows.
 
-- Download Latest [Arduino IDE](https://www.arduino.cc/en/software/) Installer for Windows.
-
-<b>📚 Libraries</b>
+#### 📚 Libraries
 
 - In Arduino IDE, to install libraries:
     - Go to **Sketch → Include Library → Manage Libraries**
@@ -29,7 +24,7 @@ Hands-on IoT projects with:
 2. [Stepper Library Reference](https://docs.arduino.cc/libraries/stepper/) - Official Arduino Stepper.h library documentation.
 
 
-<b>🤔 Arduino IDE for ESP32</b>
+#### 🤔 Arduino IDE for ESP32
 
 - Manage and Install Board Supports: 
     - Go to **Tools → Board → Boards Manager**
@@ -44,23 +39,18 @@ Hands-on IoT projects with:
     ```
     For more details, visit [Espressif: Arduino-ESP32](https://github.com/espressif/arduino-esp32) repository.
 
-<b>🛠️ Additional Software</b>
+#### 🛠️ Additional Software
 
 - Download [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) - Terminal app for Connecting Microcontrollers/Arduino/UART devices via Bluetooth-to-Serial Converters.
 
-</details>
+### 📌 Pin Diagrams
 
-<details open>
-<summary><b>📌 Pin Diagrams</b></summary>
-
+#### Arduino
 <p align=center>
-    <h4>Arduino</h4>
     <img src="./assets/pin-diagrams/Arduino.jpg">
 </p>
 
+#### ESP32
 <p align=center>
-    <h4>ESP32</h4>
     <img src="./assets/pin-diagrams/ESP32.jpg">
 </p>
-
-</details>
