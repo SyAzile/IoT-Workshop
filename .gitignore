@@ -5,5 +5,9 @@
 # IDE files
 .vscode/
 
+# Virtual Environment and Python Cache
+env/
+__pycache__/
+
 # Todo Files
 *.todo
