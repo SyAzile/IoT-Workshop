@@ -1,0 +1,9 @@
+# Arduino IDE cache
+.arduino/
+.cache/
+
+# IDE files
+.vscode/
+
+# Todo Files
+*.todo
