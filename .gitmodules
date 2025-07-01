@@ -1,0 +1,3 @@
+[submodule "projects/mqtt"]
+	path = projects/mqtt
+	url = https://github.com/SyAzile/MQTT-Wokwi-Simulation.git
